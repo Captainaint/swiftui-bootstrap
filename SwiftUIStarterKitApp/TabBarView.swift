@@ -16,7 +16,7 @@ struct TabbarView: View {
             }
             .tag(0)
             .tabItem {
-                Image("activity-1")
+                Image("29-1")
                     .resizable()
                 Text("Activities")
             }
@@ -26,8 +26,8 @@ struct TabbarView: View {
             }
             .tag(1)
             .tabItem {
-                Image("shopping-cart-icon")
-                Text("Cart")
+                Image("29-2")
+                Text("Chat")
             }
             
             NavigationView {
@@ -35,7 +35,7 @@ struct TabbarView: View {
                   }
                    .tag(2)
                     .tabItem {
-                    Image("profile-glyph-icon")
+                    Image("29-3")
                     Text("Account")
                 }
         }
